@@ -8,6 +8,7 @@ import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 export default function Index() {
   return (
     <View style={styles.container}>
+      <Link href="/pages/teste">Teste</Link>
       <MapView style={{ height: '100%', width: '100%' }}
         provider={PROVIDER_GOOGLE}
         showsUserLocation={true}
@@ -23,6 +24,7 @@ export default function Index() {
           pinColor="blue"
         />
       </MapView>
+      
       <StatusBar style="auto" />
     </View>
   );
