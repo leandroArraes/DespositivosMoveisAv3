@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
         <View style={styles.centered}>
-            <Text>Foi</Text>
+            <Text>Foi</Text> 
             <Link href="/">Home</Link>
         </View>
     </View>

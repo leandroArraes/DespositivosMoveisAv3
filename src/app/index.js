@@ -15,13 +15,7 @@ export default function Index() {
          
         <Button title='teste'/>
         </Link>
-     
-
-    
-       
-    
-
-    
+        <Link href="/pages/maps">mapa</Link>
       </View>
     </View>
   );
